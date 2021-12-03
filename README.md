@@ -16,13 +16,17 @@ Github URL search box under the Github tab (hit return).
 
 Step 3: pick the notebook for the lecture you want.
 
+For an introduction to using Google Colab (and Juptyer Notebooks in general) 
+see the following [tutorial](https://colab.research.google.com/notebooks/intro.ipynb).
+
 ## To install and use these notebooks on your computer with [Jupyter](https://jupyter.org/)
 
 If you prefer to have these notebooks installed on your computer and to use Jupyter to edit them
 follow the following instructions. 
 
 **These instructions should work on
-Linux or Mac OS and require you to be familiar with using unix shell commands (e.g. with a terminal app).**
+Linux or Mac OS and require you to be familiar with using unix shell commands (e.g. with a terminal app).
+It is not necessary to install these notebooks on your computer to take this course.**
 
 First, make sure you have [python3](https://www.python.org/) installed on your computer. 
 
