@@ -29,7 +29,7 @@ these notebooks inside a Python 3 [virtual environment](https://virtualenv.pypa.
 python3 -m pip install virtualenv
 ```
 
-To set up a virtual environment in the directory `cactus_env`, run:
+To set up a virtual environment in the directory `python_intro_env`, run:
 ```
 python3 -m virtualenv -p python3.9 python_intro_env
 ```
@@ -72,3 +72,15 @@ everything we've installed (except for Python3) will be removed.
 rm -rf cse20
 ```
 
+### Building html versions of the notebooks as slides
+
+If you've followed the above instructions to download and the notebooks on your computer
+you can build html formatted versions of the slides by running in the 
+intro_python subdirectory:
+
+```
+./make_slides.sh
+```
+
+However, you may prefer to use [RISE](https://rise.readthedocs.io/en/stable/) to view
+the slides (it is installed with the above instructions).
