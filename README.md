@@ -6,13 +6,23 @@ The lecture syllabus is here: https://bit.ly/intro_python_01
 
 ## You can view each of these notebooks using [Google Colab](https://colab.research.google.com/).
   
-Just paste https://github.com/benedictpaten/intro_python into the Github tab and pick the notebook you want.
+[Google Colab](https://colab.research.google.com/) provides a notebook environment
+you can run from your web browser without installing any software.
+
+Step 1: open [Google Colab](https://colab.research.google.com/).
+
+Step 2: paste https://github.com/benedictpaten/intro_python into the
+Github URL search box under the Github tab (hit return).
+
+Step 3: pick the notebook for the lecture you want.
 
 ## To install and use these notebooks on your computer with [Jupyter](https://jupyter.org/)
 
 If you prefer to have these notebooks installed on your computer and to use Jupyter to edit them
-follow the following instructions. These instructions should work on
-Linux or Mac OS. 
+follow the following instructions. 
+
+**These instructions should work on
+Linux or Mac OS and require you to be familiar with using unix shell commands (e.g. with a terminal app).**
 
 First, make sure you have [python3](https://www.python.org/) installed on your computer. 
 
