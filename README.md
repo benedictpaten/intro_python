@@ -79,8 +79,9 @@ jupyter notebook
 ```
 
 When you're finished with these notebooks you
-just need to delete the parent directory and
-everything we've installed (except for Python3) will be removed.
+just need to delete the parent directory (cse20) and
+everything we've installed (including all the notebooks, Jupyter and Python packages, 
+but not including Python3) will be removed.
 
 ```
 rm -rf cse20
