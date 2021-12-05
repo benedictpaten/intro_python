@@ -89,8 +89,8 @@ rm -rf cse20
 
 ### Building html versions of the notebooks as slides
 
-If you've followed the above instructions to download and the notebooks on your computer
-you can build html formatted versions of the slides by running in the 
+If you've followed the above instructions to download and run the notebooks on your computer
+you can build html formatted versions of the slides by running the make_slides.sh script in the 
 intro_python subdirectory:
 
 ```
@@ -98,4 +98,6 @@ intro_python subdirectory:
 ```
 
 However, you may prefer to use [RISE](https://rise.readthedocs.io/en/stable/) to view
-the slides (it is installed with the above instructions).
+the slides (it is installed with the above instructions). RISE allows
+you to interactively edit and run the notebook and toggle back and forth into
+a slide viewer.
