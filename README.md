@@ -2,7 +2,7 @@
 
 Each lecture is composed of a [Jupyter](https://jupyter.org/) notebook.
 
-The lecture syllabus is here: https://bit.ly/intro_python_01
+The lecture syllabus is here: https://bit.ly/intro_python_00
 
 ## You can view each of these notebooks using [Google Colab](https://colab.research.google.com/).
   
