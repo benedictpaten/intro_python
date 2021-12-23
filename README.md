@@ -2,7 +2,7 @@
 
 Each lecture is composed of a [Jupyter](https://jupyter.org/) notebook.
 
-The lecture syllabus is here: https://bit.ly/intro_python_01
+The lecture syllabus is here: https://bit.ly/intro_python_00
 
 ## You can view each of these notebooks using [Google Colab](https://colab.research.google.com/).
   
@@ -75,6 +75,18 @@ pip install matplotlib
 Now you're ready to run the notebooks:
 
 ```
+jupyter notebook
+```
+
+That's it! A browser should then open showing you the running Juptyer notebook launch page. Simply
+navigate to the desired notebook and select it to open.
+
+Later, after following the above steps, if you want to start the notebook server again (e.g. after
+shutting down the computer) simply navigate to the cse20 directory in the terminal and then 
+execute the following two commands:
+
+```
+source python_intro_env/bin/activate
 jupyter notebook
 ```
 
