@@ -70,6 +70,7 @@ pip install rise
 pip install numpy
 pip install pandas
 pip install matplotlib
+pip install scikit-learn
 ```
 
 Now you're ready to run the notebooks:
