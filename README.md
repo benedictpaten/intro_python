@@ -28,7 +28,7 @@ follow the following instructions.
 Linux or Mac OS and require you to be familiar with using unix shell commands (e.g. with a terminal app).
 It is not necessary to install these notebooks on your computer to take this course.**
 
-First, make sure you have [python3](https://www.python.org/) installed on your computer. 
+First, make sure you have [python3](https://www.python.org/) and [Jupyter](https://jupyter.org/) installed on your computer.
 
 Next make a directory to hold the notebooks:
 
@@ -73,14 +73,22 @@ pip install matplotlib
 pip install scikit-learn
 ```
 
+Now make this virtual environment accessible to Jupyter:
+
+```
+ipython kernel install --user --name=intro_python_env
+```
+
 Now you're ready to run the notebooks:
 
 ```
 jupyter notebook
 ```
 
-That's it! A browser should then open showing you the running Juptyer notebook launch page. Simply
-navigate to the desired notebook and select it to open.
+A browser should then open showing you the running Juptyer notebook launch page. Simply
+navigate to the desired notebook and select it to open. To use the virtual environment
+click on the Kernel menu and then click "Change kernel" and selecting the "intro_python_env"
+option. That's it, you should be set use all the features of these notebooks.
 
 Later, after following the above steps, if you want to start the notebook server again (e.g. after
 shutting down the computer) simply navigate to the cse20 directory in the terminal and then 
