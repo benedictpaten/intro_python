@@ -22,13 +22,15 @@ see the following [tutorial](https://colab.research.google.com/notebooks/intro.i
 ## To install and use these notebooks on your computer with [Jupyter](https://jupyter.org/)
 
 If you prefer to have these notebooks installed on your computer and to use Jupyter to edit them
-follow the following instructions. 
+follow the following instructions. Note, these instructions use the classic Jupyter notebook environment. You
+may prefer to install the more powerful [JupyterLab](https://jupyter.org/install), which provides a more 
+full-fledged IDE for editing. However, for simplicity, I like the former.
 
 **These instructions should work on
 Linux or Mac OS and require you to be familiar with using unix shell commands (e.g. with a terminal app).
 It is not necessary to install these notebooks on your computer to take this course.**
 
-First, make sure you have [python3](https://www.python.org/) and [Jupyter](https://jupyter.org/) installed on your computer.
+First, make sure you have [python3](https://www.python.org/) installed on your computer.
 
 Next make a directory to hold the notebooks:
 
@@ -37,7 +39,8 @@ mkdir cse20 && cd cse20
 ```
 
 To avoid problems with conflicting versions of dependencies on your system, we strongly recommend installing 
-these notebooks inside a Python 3 [virtual environment](https://virtualenv.pypa.io/en/stable/). To install the `virtualenv` command, if you don't have it already, run:
+these notebooks inside a Python 3 [virtual environment](https://virtualenv.pypa.io/en/stable/). 
+To install the `virtualenv` command, if you don't have it already, run:
 
 ```
 python3 -m pip install virtualenv
@@ -45,17 +48,17 @@ python3 -m pip install virtualenv
 
 To set up a virtual environment in the directory `python_intro_env`, run:
 ```
-python3 -m virtualenv -p python3.9 python_intro_env
+python3 -m virtualenv -p python3.11 python_intro_env
 ```
-Note that here I am using Python 3.9, but you may wish to choose a different version, which you can change by 
-specifying a different number string, i.e. python3.11
+Note that here I am using Python 3.11, but you may wish to choose a different version, which you can change by 
+specifying a different number string, i.e. python3.9
 
 Then, to enter the virtualenv, run:
 ```
 source python_intro_env/bin/activate
 ```
 
-You can always exit out of the virtualenv by running `deactivate`.
+You can always exit the virtualenv by running `deactivate`.
 
 
 To install these notebooks in Python, clone the repo:  
@@ -67,8 +70,8 @@ cd intro_python
 Now install Jupyter and some Python packages we'll use:
 
 ```
-pip install jupyter
-pip install rise
+pip install notebook
+pip install RISE
 pip install numpy
 pip install pandas
 pip install matplotlib
