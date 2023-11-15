@@ -47,6 +47,8 @@ To set up a virtual environment in the directory `python_intro_env`, run:
 ```
 python3 -m virtualenv -p python3.9 python_intro_env
 ```
+Note that here I am using Python 3.9, but you may wish to choose a different version, which you can change by 
+specifying a different number string, i.e. python3.11
 
 Then, to enter the virtualenv, run:
 ```
