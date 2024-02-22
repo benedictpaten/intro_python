@@ -127,3 +127,8 @@ However, you may prefer to use [RISE](https://rise.readthedocs.io/en/stable/) to
 the slides (it is installed with the above instructions). RISE allows
 you to interactively edit and run the notebook and toggle back and forth into
 a slide viewer.
+
+# Practice Exams
+
+For CSE20 we are moving to all paper exams to prevent the use of code assistant tools (chatGPT etc.). 
+In the exams folder you can find a couple of practice Jupyter notebook format exams to test your knowledge.
