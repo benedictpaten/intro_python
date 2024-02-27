@@ -131,4 +131,5 @@ a slide viewer.
 # Practice Exams
 
 For CSE20 we are moving to all paper exams to prevent the use of code assistant tools (chatGPT etc.). 
-In the exams folder you can find a couple of practice Jupyter notebook format exams to test your knowledge.
+In the exams folder you can find a couple of practice Jupyter notebook format exams to test your knowledge. These were
+used previously in the course.
